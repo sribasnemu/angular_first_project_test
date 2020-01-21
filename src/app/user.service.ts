@@ -8,7 +8,7 @@ export class UserService {
 
   constructor() { }
   login(data){
-    if(data.email == "yash@gmail.com" && data.pswd == 12345){
+    if(data.email == "admin@gmail.com" && data.pswd == 12345){
       console.log("LOGIN SUCCESSFUL");
       
     }else{
